@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+}
+
+header {
+    text-align: center;
+    background: #212121;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.timetable-container {
+    padding: 15px;
+}
+
+.day {
+    margin-bottom: 20px;
+}
+
+.day h2 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #222;
+}
+
+.class-card {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Color codes */
+.cs { background: #ff6b6b; }      /* Computer Science */
+.math { background: #4dabf7; }    /* Mathematics */
+.ece { background: #845ef7; }     /* ECE Subjects */
+.lab { background: #ffa94d; }     /* Labs */
+.free { background: #adb5bd; }    /* Free hour */
